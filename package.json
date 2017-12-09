@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "js-sha3": "^0.7.0",
+    "lodash": "^4.17.4"
+  }
+}
