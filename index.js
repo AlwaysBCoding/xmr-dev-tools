@@ -1,8 +1,9 @@
-var xmrInstance = require("./lib/monero/xmrInstance")
+#!/usr/bin/env node
+var chalk = require('chalk');
 
 global.jssha3 = require("js-sha3")
 global.lodash = require("lodash")
-global.crypto = xmrInstance
+global.crypto = require("./lib/monero/xmrInstance");
 
 class XMR {
   constructor({seed}) {
@@ -28,4 +29,4 @@ class XMR {
 
 global.XMR = XMR
 
-require("repl").start()
+require("repl").start({})
