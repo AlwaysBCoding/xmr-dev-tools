@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 var chalk = require('chalk');
 
-global.jssha3 = require("js-sha3")
-global.lodash = require("lodash")
+global.jssha3 = require("js-sha3");
+global.lodash = require("lodash");
 global.crypto = require("./lib/monero/xmrInstance");
 
 class XMR {
@@ -29,4 +29,5 @@ class XMR {
 
 global.XMR = XMR
 
-require("repl").start({})
+console.log(chalk.bold.cyan(`Starting XMR Dev Tools...`));
+require("repl").start({});

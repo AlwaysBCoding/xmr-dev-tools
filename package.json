@@ -1,6 +1,6 @@
 {
   "name": "xmr-dev-tools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI for generating Monero brain wallets, and experimenting with Monero development",
   "main": "index.js",
   "scripts": {
